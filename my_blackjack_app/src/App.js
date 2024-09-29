@@ -1,15 +1,16 @@
-import React from "react";
-// import logo from './logo.svg';
-import "./App.css";
-import NewDeck from "./components/NewDeck";
-
+import React from 'react';
+import Game from './components/Game';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Dee's Casino</h1>
-
-      <NewDeck />
+      <header className="App-header">
+        <h1>Blackjack Royale</h1>
+      </header>
+      <main>
+        <Game />
+      </main>
     </div>
   );
 }

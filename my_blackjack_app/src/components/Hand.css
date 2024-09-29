@@ -1,0 +1,16 @@
+.hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hand h2 {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
